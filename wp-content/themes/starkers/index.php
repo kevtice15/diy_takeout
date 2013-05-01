@@ -44,6 +44,9 @@
             <div style="float:left;margin-left:40px;width:265px;height:35px;border-bottom:2px solid #fff;"></div>
         </div>
         <div id="search">
+        	<div style="border-right:3px solid #b8b8b8;width:28px;left:5px;height:28px;position:absolute;top:47px;background:#fff;padding:10px;">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/search.png"></img>
+            </div>
             <input id="search-input" type="text" placeholder="Spicy, Basil, Thai..."/>
         </div>
     </div>

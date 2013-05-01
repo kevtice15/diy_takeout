@@ -267,9 +267,10 @@
 		padding-top:35px;
 	}
 	#search-input {
-		width:99%;
+		width:90%;
 		height:65px;
 		font-size:30px;
+		padding-left:65px;
 		
 		-webkit-border-radius: 5px;
      	-moz-border-radius: 5px;

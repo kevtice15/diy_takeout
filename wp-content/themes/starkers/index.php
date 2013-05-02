@@ -35,7 +35,7 @@
 <div id="container">
 	<div id="container-index">
         <div id="nav-btn">
-            <a class="primary-btn index-btn" href="#">ORDER</a>
+            <a class="primary-btn index-btn" href="http://localhost/diy_takeout/?page_id=14">ORDER</a>
             <a class="primary-btn index-btn" style="margin-left:35px;" href="#">EXPLORE</a>
         </div>
         <div id="middle">

@@ -43,6 +43,39 @@ Template Name: Explore
             	<li>
                 	<div class="explore-food-detail">
                     	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/chicken.png"/>
+                        <div class="explore-food-title">
+                        	<div class="explore-food-title-left">
+                            	<h3>
+                                	Pad Thai
+                                </h3>
+                                <h3>
+                                	Thai
+                                </h3>
+                            </div>
+                            <div class="explore-food-title-right">
+                            	<h3>
+                                	$10
+                                </h3>
+                            </div>
+                            <div class="explore-food-description">
+                            	<p>
+                                	Lorem Ipsum dolor sit amet consectetur adipiscing...
+                                </p>
+                            </div>
+                            <div class="explore-add-to-cart">
+                            	<a class="primary-btn explore-btn">Add to cart</a>
+                            </div>
+                        </div>
+                	</div>
+                 </li>
+                 <li>
+                	<div class="explore-food-detail">
+                    	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/chicken.png"/>
+                	</div>
+                 </li>
+                 <li>
+                	<div class="explore-food-detail">
+                    	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/chicken.png"/>
                 	</div>
                  </li>
             </ul>

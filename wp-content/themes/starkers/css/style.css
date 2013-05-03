@@ -351,7 +351,7 @@
 
 	/*Explore*/
 	#explore-leftsidebar {
-		width:35%;
+		width:27%;
 		float:left;
 		background:#fbfcfc;
 		
@@ -378,7 +378,7 @@
 	}
 	#explore-cousine-ul li{
 		float:left;
-		margin-left:35px;
+		margin-left:4%;
 	}
 	#explore-cousine-ul li .round{
 		width:80px;
@@ -412,7 +412,50 @@
 	}
 	#allergies-ul li{
 		float:left;
-		margin-left:30px;
+		margin-left:4%;
+	}
+	#explore-main {
+		float:left;
+		margin-left:1%;
+		width:72%;
+	}
+	#explore-main ul li{
+		float:left;
+		width:31%;
+		margin-left:2%;
+	}
+	a.explore-btn {
+		width:98%;
+		height:30px;
+		padding-top:2.5px;
+		padding-bottom:2.5px;
+		font-size:20px;
+	}
+	.explore-food-detail img{
+		width:206px;
+	}
+	.explore-food-title {
+		background:#fff;
+		padding:15px 15px 15px 20px;
+	}
+	.explore-food-title-left {
+		float:left;
+		color:#f1a51f;
+		font-size:16px;
+	}
+	.explore-food-title-right {
+		float:right;
+		color:#f1a51f;
+	}
+	.explore-food-description {
+		padding-top:10px;
+		margin-bottom:25px;
+		clear:both;
+	}
+	.explore-food-description p{
+		font-size:14px;
+		color:#989898;
+		letter-spacing:-2px;
 	}
 	#container-inner-order li span {
 		color:#fff;

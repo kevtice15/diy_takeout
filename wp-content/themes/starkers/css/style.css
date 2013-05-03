@@ -479,3 +479,65 @@
 	
 	}
 	/*Explore ends*/
+	
+	/*recipe begins*/
+	#food-title {
+		margin:25px 20px;
+		text-align:left;	
+		}
+	#food-title h3{
+		color:#f1a51f;
+		font-size:18px;
+	}
+	#food-description {
+		color:#989898;
+		margin:0 20px;
+		font-size:14px;
+	}
+	#food-serving {
+		margin:70px 20px 50px 20px;
+		color:#f1a51f;
+		font-size:18px;
+		width:90%;
+		text-align:left;
+	}
+	a.food-btn {
+		font-size: 24px;
+		height: 50px;
+		width: 90%;
+		margin-bottom: 110px;
+
+	}
+	#food-main {
+		padding:30px 50px;
+		color:#979797;
+	}
+	.food-explore-main {
+		background:#fff;
+		
+		-moz-box-shadow:3px 3px 5px rgba(0,0,0,0.5);
+	    -webkit-box-shadow:3px 3px 5px rgba(0,0,0,0.5);
+	  	-o-box-shadow:3px 3px 5px rgba(0,0,0,0.5);
+	  	box-shadow:3px 3px 5px rgba(0,0,0,0.5);
+	}
+	#food-attr ul li{
+		width:22%;
+		text-align:center;
+	}
+	#food-ingredients {
+		clear:both;
+		padding-top:1px;
+	}
+	.food-attr-pic {
+		margin-bottom:5px;
+	}
+	#food-main h3 {
+		color:#f1a51f;
+		font-size:18px;
+		margin-top:50px;
+		margin-bottom:20px;
+	}
+	#food-instructions p{
+		margin-bottom:20px;
+	}
+	/*recipe ends*/

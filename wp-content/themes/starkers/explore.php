@@ -48,7 +48,7 @@ Template Name: Explore
                             	<h3>
                                 	Pad Thai
                                 </h3>
-                                <h3>
+                                <h3 style="font-">
                                 	Thai
                                 </h3>
                             </div>

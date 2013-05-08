@@ -19,8 +19,41 @@ $recipes = new WP_Query($args);
         $(document).ready(function(){
             $('#vietnam-button').on('click', function(){
                 $('.recipe_item').each(function(index){
-                    if($(this).data.origin !== "Vietnamese"){
+                    if($(this).data('origin') !== "Vietnamese"){
                         $(this).css('display', 'none');
+                    }
+                    else{
+                       $(this).css('display', 'inline-block'); 
+                    }
+                });
+            });
+            $('#thailand-button').on('click', function(){
+                $('.recipe_item').each(function(index){
+                    if($(this).data('origin') !== "Thai"){
+                        $(this).css('display', 'none');
+                    }
+                    else{
+                       $(this).css('display', 'inline-block'); 
+                    }
+                });
+            });
+            $('#china-button').on('click', function(){
+                $('.recipe_item').each(function(index){
+                    if($(this).data('origin') !== "Chinese"){
+                        $(this).css('display', 'none');
+                    }
+                    else{
+                       $(this).css('display', 'inline-block'); 
+                    }
+                });
+            });
+            $('#india-button').on('click', function(){
+                $('.recipe_item').each(function(index){
+                    if($(this).data('origin') !== "Indian"){
+                        $(this).css('display', 'none');
+                    }
+                    else{
+                       $(this).css('display', 'inline-block'); 
                     }
                 });
             });
@@ -83,7 +116,7 @@ $recipes = new WP_Query($args);
                                         echo '<div class="explore-food-description">';
                                             echo '<p>' . $recipepost[description][0] . '</p>';
                                         echo '</div>';
-                                    echo '<div class="explore-add-to-cart"><a class="primary-btn explore-btn">Buy Now</a></div></div></div>';
+                                    echo '<div class="explore-add-to-cart"><a class="primary-btn explore-btn" href="' . get_permalink() . '">Buy Now</a></div></div></div>';
                         endwhile;
                     endif;
                 ?>

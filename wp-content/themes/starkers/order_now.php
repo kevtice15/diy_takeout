@@ -26,7 +26,7 @@ Template Name: Order Now
     			if($query->have_posts()){
     				while($query->have_posts()) : $query->the_post(); ?>
     				<?php	
-    				echo '<li><a href="#"><div class="order-outer"><div class="round"><img src=' . get_stylesheet_directory_uri() . '/img/vietnamese.png class="nnationpic"></img></div><span>' . get_the_title() . '</span></div></a></li>';
+    				echo '<li><a href=' . get_permalink() . '><div class="order-outer"><div class="round"><img src=' . get_stylesheet_directory_uri() . '/img/vietnamese.png class="nnationpic"></img></div><span>' . get_the_title() . '</span></div></a></li>';
     				endwhile;
     				}
     				wp_reset_query();

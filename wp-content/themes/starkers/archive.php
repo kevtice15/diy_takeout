@@ -17,7 +17,6 @@
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <?php if ( have_posts() ): ?>
-
 <?php if ( is_day() ) : ?>
 <h2>Archive: <?php echo  get_the_date( 'D M Y' ); ?></h2>							
 <?php elseif ( is_month() ) : ?>

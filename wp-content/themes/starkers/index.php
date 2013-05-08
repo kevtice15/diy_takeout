@@ -30,7 +30,8 @@
 </ol>
 <?php else: ?>
 <h2>No posts to display</h2>
-<?php endif; ?><?php */?>
+<?php endif; ?><?php */
+?>
 
 <div id="container">
 	<div id="container-index">

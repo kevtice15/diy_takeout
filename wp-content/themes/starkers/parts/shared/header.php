@@ -1,7 +1,7 @@
 <header>
 	<div id="header-inner">
         <div id="logo">
-            DIY-FOOD
+            <a href="<?php echo get_home_url(); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"></img></a>
         </div>
         
         <div id="nav">

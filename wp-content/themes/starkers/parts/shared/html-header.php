@@ -13,8 +13,10 @@
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico"/>
         
 		<?php wp_head(); ?>
+		
+        <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style-jenn.css"/>
         <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css"/>
-		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.js"></script>
 		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.slides.js"></script>
 
         <!--full paged background js-->

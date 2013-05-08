@@ -15,7 +15,7 @@ Template Name: Explore
                 <div id="explore-cousine-ul">
                 	<ul>
                     	<li><a href="#"><div class="order-outer"><div class="round"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vietnamese.png" class="nnationpic"></img></div><span>Vietnamese</span></div></a></li>
-            <li><a href="#"><div class="order-outer"><div class="round"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/thailand.png" class="nnationpic"></img></div><span>Thai</span></div></a></li>
+            <a href="#"><li><div class="order-outer"><div class="round"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/thailand.png" class="nnationpic"></img></div><span>Thai</span></div></li></a>
             <li><a href="#"><div class="order-outer"><div class="round"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/india.png" class="nnationpic"></img></div><span>Indian</span></div></a></li>
             <li><a href="#"><div class="order-outer"><div class="round"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/chinese.png" class="nnationpic"></img></div><span>Chinese</span></div></a></li>
                     </ul>

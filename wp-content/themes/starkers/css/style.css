@@ -690,7 +690,13 @@
 		color:#fff;
 		font-size:14px;
 		font-weight: 400;
+		padding: 20px;
 	}
+	
+	#header-inner ul li a:hover{
+		background: aqua;
+	}
+	
 	#cart {
 		float: right;
 		margin-top: -5px;

@@ -6,9 +6,9 @@
         
         <div id="nav">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ORDER</a></li>
-                <li><a href="#">EXPLORE</a></li>
+                <li><a href="<?php echo get_home_url(); ?>">HOME</a></li>
+                <li><a href="<?php echo get_permalink(11); ?>">ORDER</a></li>
+                <li><a href="<?php echo get_permalink(43); ?>">EXPLORE</a></li>
             </ul>
         </div>
         

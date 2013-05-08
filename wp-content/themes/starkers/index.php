@@ -36,8 +36,8 @@
 <div id="container">
 	<div id="container-index">
         <div id="nav-btn">
-            <a class="primary-btn index-btn" href="http://localhost/diy_takeout/?page_id=14">ORDER</a>
-            <a class="primary-btn index-btn" style="margin-left:35px;" href="#">EXPLORE</a>
+            <a class="primary-btn index-btn" href="<?php echo get_permalink(11); ?>">ORDER</a>
+            <a class="primary-btn index-btn" style="margin-left:35px;" href="<?php echo get_permalink(43); ?>">EXPLORE</a>
         </div>
         <div id="middle">
             <div style="float:left;width:265px;height:35px;border-bottom:2px solid #fff;"></div>
